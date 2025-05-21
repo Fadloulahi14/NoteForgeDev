@@ -153,7 +153,7 @@ C’est courant de manipuler des **données au format JSON** qui sont exactement
 
 ### Copie et référence
 
-Attention, en JavaScript, les objets (et tableaux) sont manipulés par **référence**. Si vous faites l `et perso2 = personne;`, vous ne copiez pas l’objet, vous créez une nouvelle référence pointant vers le même objet.
+Attention, en JavaScript, les objets (et tableaux) sont manipulés par **référence**. Si vous faites `let perso2 = personne;`, vous ne copiez pas l’objet, vous créez une nouvelle référence pointant vers le même objet.
 
 Modifier `perso2.age` modifiera aussi `personne.age` car c’est le même objet en mémoire.
 
